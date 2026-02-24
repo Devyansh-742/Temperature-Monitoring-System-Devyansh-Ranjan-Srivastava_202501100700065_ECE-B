@@ -32,10 +32,10 @@ The Temperature Monitoring System is a simple Python program developed to simula
 
 *Program Features
 
-✔ Accepts Minimum and Maximum temperature limits
-✔ Validates user input (Min < Max)
-✔ Generates temperature readings every 2 seconds
-✔ Displays alert messages:
+•Accepts Minimum and Maximum temperature limits
+• Validates user input (Min < Max)
+• Generates temperature readings every 2 seconds
+• Displays alert messages:
 
  "Alert: Temperature is too high" (if temperature > max limit)
 
