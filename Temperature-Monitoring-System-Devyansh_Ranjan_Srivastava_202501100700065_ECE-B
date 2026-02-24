@@ -1,0 +1,31 @@
+import random
+import time
+
+# Accept user input
+min_temp = float(input("Enter Minimum Temperature Limit: "))
+max_temp = float(input("Enter Maximum Temperature Limit: "))
+
+# Input validation
+if min_temp >= max_temp:
+    print("Error: Minimum temperature must be less than Maximum temperature.")
+    exit()
+
+print("\nTemperature Monitoring System Started...\n")
+
+# Generate 5 readings (for demo purpose)
+for i in range(5):
+    current_temp = random.uniform(0, 100)
+
+    print(f"Current Temperature: {current_temp:.2f}°C")
+
+    if current_temp > max_temp:
+        print("Alert: Temperature is too high")
+    elif current_temp < min_temp:
+        print("Alert: Temperature is too low")
+    else:
+        print("Temperature is Normal")
+
+    print("-------------------------------")
+    time.sleep(2)
+
+print("Monitoring Stopped.")
