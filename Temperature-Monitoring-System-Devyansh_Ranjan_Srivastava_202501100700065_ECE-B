@@ -1,3 +1,7 @@
+# Temperature Monitoring System
+#Devyansh Ranjan Srivastava , 202501100700065 , ECE-B
+# This program checks whether the generated random temprature value is above or below required normal temperature and print "Alert:Temperature too high" or Alert:"Temperature too low".
+
 import random
 import time
 
